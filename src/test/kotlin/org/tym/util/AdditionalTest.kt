@@ -8,6 +8,7 @@ import i_introduction._8_Smart_Casts._08_Smart_Casts
 import ii_collections._24_Extensions_On_Collections
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.tym.util.JavaCode
 
 class AdditionalTest {
     @Test fun test() {
