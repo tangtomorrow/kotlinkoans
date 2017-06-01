@@ -4,7 +4,7 @@ import util.TODO
 import util.doc0
 
 fun todoTask0(): Nothing = TODO(
-    """
+        """
         Introduction.
 
         Kotlin Koans project consists of 42 small tasks for you to solve.
@@ -22,8 +22,8 @@ fun todoTask0(): Nothing = TODO(
 
         Let's start! Make the function 'task0' return "OK".
     """,
-    documentation = doc0(),
-    references = { task0(); "OK" }
+        documentation = doc0(),
+        references = { task0(); "OK" }
 )
 
 fun task0(): String {

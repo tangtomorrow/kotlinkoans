@@ -27,8 +27,8 @@ class AdditionalTest {
         for (test in tests) {
             try {
                 test()
+            } catch (e: NotImplementedException) {
             }
-            catch (e: NotImplementedException) {}
         }
     }
 }

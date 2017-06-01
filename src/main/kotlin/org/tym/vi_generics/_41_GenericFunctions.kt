@@ -4,7 +4,7 @@ import util.TODO
 import java.util.*
 
 fun task41(): Nothing = TODO(
-    """
+        """
         Task41.
         Add a 'partitionTo' function that splits a collection into two collections according to a predicate.
         Uncomment the commented invocations of 'partitionTo' below and make them compile.

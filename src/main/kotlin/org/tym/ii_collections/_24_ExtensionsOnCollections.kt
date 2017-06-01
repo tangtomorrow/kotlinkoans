@@ -4,7 +4,7 @@ import org.tym.ii_collections._24_JavaCode
 import util.TODO
 
 fun todoTask24(): Nothing = TODO(
-    """
+        """
         Task 24.
         The function should behave the same as '_24_JavaCode.doSomethingStrangeWithCollection'
         Replace all invocations of 'todoTask24()' with the appropriate code.

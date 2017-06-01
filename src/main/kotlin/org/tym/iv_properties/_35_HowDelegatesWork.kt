@@ -7,7 +7,7 @@ import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
 fun todoTask35(): Nothing = TODO(
-    """
+        """
         Task 35.
         A delegate expression must have special 'get' and 'set' methods.
         You can see their signatures below (as members of the 'ReadWriteProperty' interface).
@@ -16,7 +16,7 @@ fun todoTask35(): Nothing = TODO(
         Store only the time in milliseconds in 'timeInMillis' property.
         Use the extension functions 'MyDate.toMillis' and 'Long.toDate'.
     """,
-    references = { date: MyDate -> date.toMillis().toDate()}
+        references = { date: MyDate -> date.toMillis().toDate() }
 )
 
 class D {

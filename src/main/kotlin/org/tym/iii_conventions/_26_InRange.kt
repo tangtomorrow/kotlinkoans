@@ -4,7 +4,7 @@ import util.TODO
 import util.doc26
 
 fun todoTask26_(): Nothing = TODO(
-    """
+        """
         Task 26.
         Uncomment the commented line.
         In Kotlin 'in' checks are translated to the corresponding 'contains' calls.
@@ -12,8 +12,8 @@ fun todoTask26_(): Nothing = TODO(
         Alternatively, you can make the class DateRange implement the standard ClosedRange interface.
         Add all changes to the file MyDate.kt.
     """,
-    documentation = doc26(),
-    references = { range: ClosedRange<Int> -> }
+        documentation = doc26(),
+        references = { range: ClosedRange<Int> -> }
 )
 
 fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {

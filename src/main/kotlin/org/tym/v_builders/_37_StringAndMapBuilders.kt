@@ -1,7 +1,6 @@
 package v_builders
 
 import util.TODO
-import java.util.*
 
 fun buildStringExample(): String {
     fun buildString(build: StringBuilder.() -> Unit): String {
@@ -20,7 +19,7 @@ fun buildStringExample(): String {
 }
 
 fun todoTask37(): Nothing = TODO(
-    """
+        """
         Task 37.
         Uncomment the commented code and make it compile.
         Add and implement function 'buildMap' with one parameter (of type extension function) creating a new HashMap,
