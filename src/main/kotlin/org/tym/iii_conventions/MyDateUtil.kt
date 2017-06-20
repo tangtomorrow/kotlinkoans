@@ -19,3 +19,7 @@ fun MyDate.addTimeIntervals(timeInterval: TimeInterval, number: Int): MyDate {
     result.timeInMillis = timeInMillis
     return MyDate(result.get(Calendar.YEAR), result.get(Calendar.MONTH), result.get(Calendar.DATE))
 }
+
+fun MyDate.addRepeatedTimeInterval(repeatedTimeInterval: RepeatedTimeInterval) : MyDate {
+    return addTimeIntervals(repeatedTimeInterval.timeInterval, repeatedTimeInterval.number)
+}
